@@ -6,6 +6,20 @@
 
 ##### Enhancements
 
+- None.
+
+##### Bug Fixes
+
+- None.
+
+## 3.8.0 (2026-07-25)
+
+##### Breaking
+
+- None.
+
+##### Enhancements
+
 - Added the `--retain-equatable-properties` and `--retain-hashable-properties` options to retain all properties on `Equatable` and `Hashable` types.
 - Expose a stable `@periphery//bazel:generated` package group so Bazel projects can grant visibility to Periphery's generated scan target and use `--bazel-check-visibility` safely.
 - Added a `--bazel-query` option to override the default Bazel top-level target query.
